@@ -17,6 +17,20 @@ class GetPost {
       return postData;
     } else {
       throw "Data Tidak Ada";
+      // return Column(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: <Widget>[
+      //     CircularProgressIndicator(
+      //       strokeWidth: 5,
+      //     ),
+      //     Center(
+      //       child: Text(
+      //         "Loading...",
+      //         style: TextStyle(height: 5),
+      //       ),
+      //     ),
+      //   ],
+      // );
     }
   }
 }

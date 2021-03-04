@@ -14,6 +14,7 @@ class PostPage extends StatelessWidget {
       ),
       body: FutureBuilder(
           future: _getPost.manggilPostData(),
+          // ignore: missing_return
           builder: (context, AsyncSnapshot<List<Post>> snapshot) {
             if (snapshot.hasData) {
               List<Post> dataPost = snapshot.data;

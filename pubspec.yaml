@@ -75,6 +75,9 @@ flutter:
     - assets/icons/tk_logo.jpg
     - assets/images/covid-19.png
     - assets/icons/tk_biru.jpg
+    - assets/images/happy.png
+    - assets/images/sad.png
+    - assets/images/crying.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
